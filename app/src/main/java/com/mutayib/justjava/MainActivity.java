@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
 
     private int calculatePrice(boolean whippedCream, boolean chocolate){
 
-        int bill = getNumberOfCoffees() * 50;
+        int bill = getNumberOfCoffees() * 500;
         if (whippedCream)
             bill += getNumberOfCoffees() * 25;
         if (chocolate)

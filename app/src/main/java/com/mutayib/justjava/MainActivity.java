@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
 
         int bill = 0;
         if (whippedCream)
-            bill += getNumberOfCoffees() * 25;
+            bill += getNumberOfCoffees() * 35;
         if (chocolate)
             bill += getNumberOfCoffees() * 15;
         bill += getNumberOfCoffees() * 70;
